@@ -10,7 +10,7 @@ function BooksList() {
   const booksPerPage = 30;
 
   useEffect(() => {
-    axios.get('http://localhost:5000/books')
+    axios.get('https://library-backend-9f7k.onrender.com/books')
       .then((res) => setBooks(res.data))
       .catch((err) => console.error(err));
   }, []);

@@ -35,7 +35,7 @@ function BorrowBook() {
   const fetchBooks = useCallback(() => {
     setLoadingBooks(true);
     const endpoint = action === 'borrow' ? 'available' : 'borrowed';
-    axios.get(`http://localhost:5000/books/${endpoint}`)
+    axios.get(`https://library-backend-9f7k.onrender.com/books/${endpoint}`)
       .then((res) => {
         setBooks(res.data);
         setLoadingBooks(false);
@@ -50,7 +50,7 @@ function BorrowBook() {
 
   const fetchUsers = useCallback(() => {
     setLoadingUsers(true);
-    axios.get('http://localhost:5000/users')
+    axios.get('https://library-backend-9f7k.onrender.com/users')
       .then((res) => {
         setUsers(res.data);
         setLoadingUsers(false);
@@ -125,7 +125,7 @@ function BorrowBook() {
         : { book_id: transaction.book_id, user_id: transaction.user_id }; // Send both book_id and user_id when returning
 
     axios
-      .post(`http://localhost:5000/transactions/${endpoint}`, data)
+      .post(`https://library-backend-9f7k.onrender.com/transactions/${endpoint}`, data)
       .then((res) => {
         setModalMessage(res.data.message);
         setShowModal(true);

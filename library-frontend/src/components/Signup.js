@@ -20,7 +20,7 @@ function Signup() {
       return;
     }
     try {
-      const response = await axios.post('http://localhost:5000/admin/signup', { email, password });
+      const response = await axios.post('https://library-backend-9f7k.onrender.com/admin/signup', { email, password });
       setModalMessage('Signup successful');
       setShowModal(true);
       setEmail('');

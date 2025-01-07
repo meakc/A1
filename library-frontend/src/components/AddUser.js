@@ -18,7 +18,7 @@ function AddUser() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/users', user)
+    axios.post('https://library-backend-9f7k.onrender.com/users', user)
       .then((res) => {
         setModalMessage('User added successfully');
         setShowModal(true);

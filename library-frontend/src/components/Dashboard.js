@@ -19,11 +19,11 @@ function Dashboard() {
   const COLORS = ['#0088FE', '#FF8042'];
 
   useEffect(() => {
-    axios.get('http://localhost:5000/stats')
+    axios.get('https://library-backend-9f7k.onrender.com/stats')
       .then((res) => setStats(res.data))
       .catch((err) => console.error(err));
 
-    axios.get('http://localhost:5000/transactions')
+    axios.get('https://library-backend-9f7k.onrender.com/transactions')
       .then((res) => setMonthlyBorrows(res.data))
       .catch((err) => console.error(err));
   }, []);
