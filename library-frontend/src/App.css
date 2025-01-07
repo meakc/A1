@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Bangers&family=Jersey+15&family=Kablammo:MORF@59&family=Nosifer&family=Noto+Sans+PhagsPa&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&display=swap');
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jersey 15', sans-serif; /* Apply Jersey 15 font to headings */
+}
+
+.navbar-brand {
+  font-family: 'Nosifer', serif; /* Apply Rubik Vinyl font to the navbar brand */
+}
+.app-background{
+  background-image: url('./image/7XJx.gif');
+  /* background-size: cover; */
+
+}

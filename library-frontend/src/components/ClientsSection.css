@@ -1,0 +1,35 @@
+/* ClientsSection.css */
+.clients-section {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    /* border-radius: 10px; */
+  }
+  
+  .marquee {
+    position: relative;
+    width: 110%;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: flex;
+    align-items: center;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .client-logo {
+    width: 4%;
+    height: 4%;
+    margin: 0 80px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

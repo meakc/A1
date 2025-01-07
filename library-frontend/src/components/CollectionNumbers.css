@@ -1,0 +1,29 @@
+/* CollectionNumbers.css */
+.collection-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: #f5f5f5;
+  /* font-family: 'Kablammo',serif; */
+  font-style: normal;
+}
+
+.stat-item {
+  flex: 1 1 200px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Bangers',serif;
+}
+
+.stat-item h3 {
+  font-size: 48px;
+  margin: 0;
+  color: #333;
+}
+
+.stat-item p {
+  font-size: 18px;
+  margin: 10px 0 0;
+  color: #777;
+}

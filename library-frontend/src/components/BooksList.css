@@ -1,0 +1,27 @@
+.books-table {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the table */
+  }
+  
+  .books-table th, .books-table td {
+    vertical-align: middle;
+  }
+  
+  .books-table th {
+    background-color: #343a40;
+    color: #fff;
+    font-family: 'Bangers', serif; /* Apply Rubik Vinyl font to the table headers */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .books-table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans PhagsPa', sans-serif; /* Apply Noto Sans PhagsPa font to the form control */
+  }

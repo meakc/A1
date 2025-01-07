@@ -1,0 +1,75 @@
+.dashboard-background {
+  background-image: url('../image/7XJx.gif');
+  min-height: 100vh;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-title {
+  font-family: 'Jersey 15', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-subtitle {
+  font-family: 'Noto Sans PhagsPa', sans-serif;
+  font-weight: 500;
+  color: #e71c1c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-stat {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  border-radius: 15px 15px 0 0;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Rubik Vinyl', cursive;
+  font-weight: 500;
+  color: #333;
+}
+
+.card-content {
+  padding: 25px;
+  text-align: center;
+}
+
+.chart-container {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.chart-title {
+  font-family: 'Rubik Vinyl', cursive;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}

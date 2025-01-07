@@ -1,0 +1,28 @@
+.custom-modal .modal-content {
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .custom-modal .modal-header {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #fff;
+  }
+  
+  .custom-modal .modal-footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

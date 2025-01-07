@@ -1,0 +1,4 @@
+.login-page , .signup-page {
+    background-image: linear-gradient(90deg , black 40% , white);
+    border-radius: 10px;
+}
