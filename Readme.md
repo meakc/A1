@@ -117,7 +117,13 @@ npm install
 
 ```bash
 cd library-backend
-npm start
+node app.js
+```
+or
+
+```bash
+npm install nodemon
+nodemon app.js
 ```
 
 #### 2. Start the Frontend Server
