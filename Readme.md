@@ -1,5 +1,5 @@
-### Library Management System
-** String Ventures Full Stack Development Assignment **
+## Library Management System
+**String Ventures Full Stack Development Assignment**
 A full-stack web application to manage a library's books and users, allowing for book borrowing and returning functionalities.
 
 ---
