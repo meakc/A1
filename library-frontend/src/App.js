@@ -25,7 +25,7 @@ function App() {
     <div className="app-background">
       <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
-        <Navbar.Brand as={Link} to="/"> {isAuthenticated ? "Library Dashboard" : "Library Management Portal"}</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" style={{ fontSize: "medium" }}> {isAuthenticated ? "Library Dashboard" : "Library Management Portal"}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
