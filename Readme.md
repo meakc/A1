@@ -1,5 +1,8 @@
-## Library Management System
+### Library Management System
+---
+
 **String Ventures Full Stack Development Assignment**
+
 A full-stack web application to manage a library's books and users, allowing for book borrowing and returning functionalities.
 
 ---
@@ -30,6 +33,8 @@ A full-stack web application to manage a library's books and users, allowing for
 
 The **Library Management System** is a web application built using **React.js** for the frontend and **Node.js** with **Express.js** and **MongoDB** for the backend. It allows librarians and users to manage books, users, and transactions efficiently.
 
+---
+
 ### Features
 
 - **Books Management**
@@ -53,6 +58,8 @@ The **Library Management System** is a web application built using **React.js** 
 - **Responsive UI**
   - Modern and responsive design using Material-UI.
   - Intuitive navigation and user-friendly forms.
+
+---
 
 ### Built With
 
@@ -155,6 +162,8 @@ Visualize key statistics about the library's operations.
 ### Home Page
 ![Home Page](home.jpg)
 
+### Backend MongoDB
+![Backend](mongoDB.jpg)
 ### Features
 ![Features](features.jpg)
 
