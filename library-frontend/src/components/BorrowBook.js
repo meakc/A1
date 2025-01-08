@@ -64,7 +64,7 @@ function BorrowBook() {
 
   const fetchTransactions = useCallback(() => {
     setLoadingTransactions(true);
-    axios.get('http://localhost:5000/transactions')
+    axios.get('https://library-backend-9f7k.onrender.com/transactions')
       .then((res) => {
         setTransactions(res.data);
         setLoadingTransactions(false);
