@@ -261,5 +261,7 @@ library-management-system/
 
 Check out the live demo of the application [here](https://library-frontend-ljla.onrender.com/).
 
+**Note :-  Render takes some time to live the backend after 50s of inactivity , So please wait some time !**
+
 ---
 Abhishek Kumar Choudhary
