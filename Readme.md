@@ -22,8 +22,6 @@ A full-stack web application to manage a library's books and users, allowing for
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -89,7 +87,7 @@ Follow these instructions to set up and run the project locally.
 
 ```bash
 git clone https://github.com/meakc/A1.git
-cd library-management-system
+cd A1
 ```
 
 #### 2. Install Dependencies
